@@ -8,46 +8,50 @@
 You can run **ViewMax.py** on **Mac**, **Windows**, and **Termux**. Below are the instructions for each platform.
 
 ### Prerequisites
-Before using **ViewMax.py**, you need to install the following dependencies:
+Before using **ViewMax.py**, ensure you have the following:
 
-- **Python 3.x**: Ensure you have Python 3 installed. You can check this with:
-  ```bash
-  python --version
-  ```
-
-- **Selenium** library: A Python library for web automation.
-- **ChromeDriver**: WebDriver used to control Google Chrome.
-
-You can install these using pip.
+- **Python 3.x**
+- **Selenium** library
+- **ChromeDriver** installed
 
 ---
 
 ### How to Run on Mac
 
-1. **Install Python** (if not already installed).
-   - Download and install Python from [here](https://www.python.org/downloads/).
-   
-2. **Create a Virtual Environment**:
+1. **Install Python** (if not already installed):
+   - Download from [python.org](https://www.python.org/downloads/).
+
+2. **Install ChromeDriver**:
+   - Install via Homebrew:
+     ```bash
+     brew install chromedriver
+     ```
+   - Add **ChromeDriver** to the PATH:
+     ```bash
+     sudo ln -s /opt/homebrew/bin/chromedriver /usr/local/bin/chromedriver
+     ```
+
+3. **Create a Virtual Environment**:
    ```bash
    python3 -m venv ~/myenv
    ```
-   
-3. **Activate the Virtual Environment**:
+
+4. **Activate the Virtual Environment**:
    ```bash
    source ~/myenv/bin/activate
    ```
 
-4. **Install Selenium**:
+5. **Install Selenium**:
    ```bash
    pip install selenium
    ```
 
-5. **Run the Tool**:
+6. **Run the Tool**:
    ```bash
    python3 -u "/path/to/ViewMax.py"
    ```
 
-6. **Deactivate the Virtual Environment** after running:
+7. **Deactivate the Virtual Environment** after running:
    ```bash
    deactivate
    ```
@@ -56,30 +60,34 @@ You can install these using pip.
 
 ### How to Run on Windows
 
-1. **Install Python** (if not already installed).
-   - Download and install Python from [here](https://www.python.org/downloads/).
+1. **Install Python** (if not already installed):
+   - Download from [python.org](https://www.python.org/downloads/).
 
-2. **Create a Virtual Environment**:
+2. **Install ChromeDriver**:
+   - Download from [ChromeDriver download page](https://sites.google.com/a/chromium.org/chromedriver/).
+   - Extract and add **ChromeDriver** to your PATH.
+
+3. **Create a Virtual Environment**:
    ```bash
    python -m venv C:\path\to\myenv
    ```
 
-3. **Activate the Virtual Environment**:
+4. **Activate the Virtual Environment**:
    ```bash
    C:\path\to\myenv\Scripts\activate
    ```
 
-4. **Install Selenium**:
+5. **Install Selenium**:
    ```bash
    pip install selenium
    ```
 
-5. **Run the Tool**:
+6. **Run the Tool**:
    ```bash
    python C:\path\to\ViewMax.py
    ```
 
-6. **Deactivate the Virtual Environment** after running:
+7. **Deactivate the Virtual Environment** after running:
    ```bash
    deactivate
    ```
@@ -100,7 +108,7 @@ You can install these using pip.
    pkg install python-pip
    ```
 
-4. **Install ChromeDriver** (you may need to manually install ChromeDriver or use an appropriate version):
+4. **Install ChromeDriver** (manual installation):
    ```bash
    pkg install wget
    wget https://chromedriver.storage.googleapis.com/your_version/chromedriver_linux64.zip
@@ -122,25 +130,19 @@ You can install these using pip.
 
 ## Features
 
-- **Safe Mode**: Safely increase views by using fewer browsers.
-- **Extreme Mode**: Increase views rapidly with more browsers.
-- **Progress Feedback**: **ViewMax.py** provides real-time updates on the progress of the tool.
+- **Safe Mode**: Safely increase views with fewer browsers.
+- **Extreme Mode**: Rapidly increase views with multiple browsers.
+- **Progress Feedback**: Get real-time updates during the process.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Credits
-
-- **Selenium**: Web automation framework used for automating browser actions.
-- **ChromeDriver**: Required to interact with Chrome browsers.
+This project is licensed under the MIT License.
 
 ---
 
 ### Troubleshooting
 
-If you run into any issues, ensure the following are correctly configured:
-- **ChromeDriver** must be installed and added to your PATH.
-- Ensure that your **virtual environment** is active when installing dependencies and running the tool.
+- Make sure **ChromeDriver** is correctly installed and added to your PATH.
+- Ensure the **virtual environment** is active when installing dependencies and running the tool.
