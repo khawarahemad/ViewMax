@@ -1,5 +1,4 @@
 
-
 # ViewMax - GitHub View Increaser Tool
 
 **ViewMax** is a tool designed to increase views on GitHub repositories by automating multiple browser visits.
@@ -145,5 +144,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you run into any issues, ensure the following are correctly configured:
 - **ChromeDriver** must be installed and added to your PATH.
 - Ensure that your **virtual environment** is active when installing dependencies and running the tool.
-
-
