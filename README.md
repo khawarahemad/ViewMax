@@ -1,14 +1,14 @@
 
 # ViewMax - GitHub View Increaser Tool
 
-**ViewMax** is a tool designed to increase views on GitHub repositories by automating multiple browser visits.
+**ViewMax.py** is a tool designed to increase views on GitHub repositories by automating multiple browser visits.
 
 ## How to Use
 
-You can run ViewMax on **Mac**, **Windows**, and **Termux**. Below are the instructions for each platform.
+You can run **ViewMax.py** on **Mac**, **Windows**, and **Termux**. Below are the instructions for each platform.
 
 ### Prerequisites
-Before using ViewMax, you need to install the following dependencies:
+Before using **ViewMax.py**, you need to install the following dependencies:
 
 - **Python 3.x**: Ensure you have Python 3 installed. You can check this with:
   ```bash
@@ -44,7 +44,7 @@ You can install these using pip.
 
 5. **Run the Tool**:
    ```bash
-   python3 -u "/path/to/ViewMax/site_refresher.py"
+   python3 -u "/path/to/ViewMax.py"
    ```
 
 6. **Deactivate the Virtual Environment** after running:
@@ -76,7 +76,7 @@ You can install these using pip.
 
 5. **Run the Tool**:
    ```bash
-   python C:\path\to\ViewMax\site_refresher.py
+   python C:\path\to\ViewMax.py
    ```
 
 6. **Deactivate the Virtual Environment** after running:
@@ -115,7 +115,7 @@ You can install these using pip.
 
 6. **Run the Tool**:
    ```bash
-   python /path/to/ViewMax/site_refresher.py
+   python /path/to/ViewMax.py
    ```
 
 ---
@@ -124,7 +124,7 @@ You can install these using pip.
 
 - **Safe Mode**: Safely increase views by using fewer browsers.
 - **Extreme Mode**: Increase views rapidly with more browsers.
-- **Progress Feedback**: ViewMax provides real-time updates on the progress of the tool.
+- **Progress Feedback**: **ViewMax.py** provides real-time updates on the progress of the tool.
 
 ---
 
