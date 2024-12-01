@@ -1,5 +1,5 @@
 
-```markdown
+
 # ViewMax - GitHub View Increaser Tool
 
 **ViewMax** is a tool designed to increase views on GitHub repositories by automating multiple browser visits.
