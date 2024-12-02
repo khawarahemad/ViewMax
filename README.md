@@ -145,4 +145,4 @@ This project is licensed under the MIT License.
 ### Troubleshooting
 
 - Make sure **ChromeDriver** is correctly installed and added to your PATH.
-- Ensure the **virtual environment** is active when installing dependencies and running the tool.
+- Ensure the **virtual environment** is active when installing dependencies and running the tool...
